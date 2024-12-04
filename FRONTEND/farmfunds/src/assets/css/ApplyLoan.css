@@ -1,0 +1,134 @@
+.form-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+.form-wrapper {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+}
+
+.formbold-steps {
+  padding-bottom: 18px;
+  margin-bottom: 35px;
+  border-bottom: 2px solid #a3f097;
+}
+.formbold-steps ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  gap: 38px;
+}
+.formbold-steps li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.formbold-steps li span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d3ffd4;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.formbold-steps li.active {
+  color: #6ce56c;
+}
+.formbold-steps li.active span {
+  background: #6ce56c;
+  color: #ffffff;
+}
+
+.formbold-input-flex {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 22px;
+}
+
+
+
+.formbold-input-flex > div {
+  width: 100%;
+}
+.formbold-form-input {
+  width: 100%;
+  padding: 13px 22px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-weight: 500;
+  font-size: 16px;
+  outline: none;
+  resize: none;
+}
+.formbold-form-input:focus {
+  border-color: #6ce56c;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+.formbold-form-label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.formbold-form-step-1,
+.formbold-form-step-2,
+.formbold-form-step-3,
+.formbold-form-step-4 {
+  display: none;
+}
+.formbold-form-step-1.active,
+.formbold-form-step-2.active,
+.formbold-form-step-3.active,
+.formbold-form-step-4.active {
+  display: block;
+}
+
+.formbold-form-btn-wrapper {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 25px;
+  margin-top: 25px;
+}
+.formbold-back-btn {
+  cursor: pointer;
+  border: none;
+  background-color: red;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 5px;
+  padding: 10px 25px;
+}
+.formbold-btn {
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px 25px;
+  border: none;
+  font-weight: 500;
+  background-color: #6ce56c;
+  cursor: pointer;
+}
+.formbold-btn:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+
+@media screen  and (min-width: 760px) {
+  .formbold-steps ul {
+    display: flex;
+  }
+}

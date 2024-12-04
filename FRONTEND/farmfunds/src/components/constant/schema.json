@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "loan": "Crop Development Loan",
+    "image": "https://www.thestatesman.com/wp-content/uploads/2017/08/1488909278-farmer-517-getty.jpg",
+    "description": "Supports farmers in cultivating various crops.",
+    "eligibility": "Farmers with a minimum landholding of 5 acres.",
+    "interestRate": "5% per annum",
+    "documents": "aadhar, pan, land ",
+    "processing": "10 days"
+  },
+  {
+    "id": 2,
+    "loan": "Crop Development Loan",
+    "image": "https://www.thestatesman.com/wp-content/uploads/2017/08/1488909278-farmer-517-getty.jpg",
+    "description": "Supports farmers in cultivating various crops.",
+    "eligibility": "Farmers with a minimum landholding of 5 acres.",
+    "interestRate": "5% per annum",
+    "documents": "aadhar, pan, land ",
+    "processing": "10 days"
+  },
+  {
+    "id": 3,
+    "loan": "Crop Development Loan",
+    "image": "https://www.thestatesman.com/wp-content/uploads/2017/08/1488909278-farmer-517-getty.jpg",
+    "description": "Supports farmers in cultivating various crops.",
+    "eligibility": "Farmers with a minimum landholding of 5 acres.",
+    "interestRate": "5% per annum",
+    "documents": "aadhar, pan, land ",
+    "processing": "10 days"
+  },
+  {
+    "id": 4,
+    "loan": "Crop Development Loan",
+    "image": "https://www.thestatesman.com/wp-content/uploads/2017/08/1488909278-farmer-517-getty.jpg",
+    "description": "Supports farmers in cultivating various crops.",
+    "eligibility": "Farmers with a minimum landholding of 5 acres.",
+    "interestRate": "5% per annum",
+    "documents": "aadhar, pan, land ",
+    "processing": "10 days"
+  },
+  {
+    "id": 5,
+    "loan": "Crop Development Loan",
+    "image": "https://www.thestatesman.com/wp-content/uploads/2017/08/1488909278-farmer-517-getty.jpg",
+    "description": "Supports farmers in cultivating various crops.",
+    "eligibility": "Farmers with a minimum landholding of 5 acres.",
+    "interestRate": "5% per annum",
+    "documents": "aadhar, pan, land ",
+    "processing": "10 days"
+  }
+]

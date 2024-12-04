@@ -1,0 +1,9 @@
+.modal-overlay {
+  width: 100%;
+}
+
+.modal-content {
+  backdrop-filter: blur(10px);
+  background: transparent;
+  border: none;
+}

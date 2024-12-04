@@ -1,0 +1,115 @@
+.profile-container {
+  width: 650px;
+  height: 620px;
+  margin:0 auto;
+  padding: 20px;
+  background-color: #fff;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+.profile-header {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile-photo {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-right: 20px;
+  display: none;
+}
+
+.profile-title {
+  font-size: 26px;
+  margin-bottom: -10px;
+}
+.close-btn2 {
+  margin-left: 55%;
+  font-size: 24px;
+  font-weight: 650;
+  cursor: pointer;
+}
+.close-btn2:hover{
+  color: #ff0000;
+}
+.user-details,
+.farm-details {
+  margin-top: 20px;
+}
+.user-details h4{
+  color: #6ce56c;
+}
+
+.input-field {
+  margin-bottom: 15px;
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-edit {
+  background-color: #6ce56c;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 45%;
+}
+
+.btn-save {
+  background-color: #6ce56c;
+  padding: 10px 20px;
+  margin-left: 2%;
+  border-radius: 5px;
+}
+
+.btn-cancel {
+  background-color: #e74c3c;
+  padding: 10px 20px;
+  margin-left: 65%; 
+  border: 2px solid #27ae60; 
+  border-radius: 5px;
+}
+
+.btn-edit:hover,
+.btn-save:hover,
+.btn-cancel:hover {
+  opacity: 0.8;
+}
+
+.section {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  color: #2c3e50;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.content {
+  margin: 10px 0;
+  color: #555;
+}
+
+.user-details .btn,
+.farm-details .btn {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    max-width: 100%;
+  }
+  .btn-cancel{
+    margin-left: 25%;
+  }
+}

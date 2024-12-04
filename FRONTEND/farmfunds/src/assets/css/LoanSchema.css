@@ -1,0 +1,158 @@
+.schema-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px 50px;
+  padding: 80px 50px;
+}
+
+.schema-container .schema-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 450px;
+  max-width: 100%;
+  height: 450px;
+  background: white;
+  border-radius: 20px;
+  transition: 0.5s;
+  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+
+.schema-container .schema-card:hover {
+  height: 450px;
+  cursor: pointer;
+}
+
+.schema-container .schema-card .schema-img {
+  position: absolute;
+  top: 20px;
+  width: 400px;
+  height: 350px;
+  background: #333;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.schema-container .schema-card:hover .schema-img {
+  top: -50px;
+  scale: 0.9;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.schema-container .schema-card .schema-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.schema-container .schema-card .schema-content {
+  position: absolute;
+  top: 385px;
+  width: 100%;
+  height: 35px;
+  padding: 0 30px;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.schema-container .schema-card:hover .schema-content {
+  top: 300px;
+  height: 250px;
+}
+
+.schema-container .schema-card .schema-content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.schema-container .schema-card .schema-content p {
+  color: #333;
+}
+.schema-container .schema-card .schema-content .apply-button {
+  position: relative;
+  top: 15px;
+  display: inline-block;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  background-color: #32cd32;
+  border-radius: 5px;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 15px;
+}
+
+.schema-container .schema-card .schema-content a {
+  position: relative;
+  top: 15px;
+  display: inline-block;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  background-color: red;
+  border-radius: 5px;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 15px;
+}
+
+.schema-container .schema-card .schema-content a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 480px) {
+  .schema-container {
+    margin-top: 50px;
+    padding: 0;
+  }
+  .schema-container .schema-card {
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+  }
+  .schema-container .schema-card:hover {
+    height: 350px;
+  }
+  .schema-container .schema-card .schema-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .schema-container .schema-card .schema-content {
+    top: 295px;
+  }
+  .schema-container .schema-card:hover .schema-content {
+    top: 220px;
+  }
+  .schema-container .schema-card .schema-content h2 {
+    font-size: 1rem;
+  }
+
+  .schema-container .schema-card .schema-content p {
+    font-size: 0.8rem;
+  }
+
+  .schema-container .schema-card .schema-content a {
+    font-size: 0.9rem;
+    margin: 3px;
+  }
+  .schema-container .schema-card .schema-content .apply-button {
+    font-size: 0.9rem;
+    margin: 3px;
+  }
+}
